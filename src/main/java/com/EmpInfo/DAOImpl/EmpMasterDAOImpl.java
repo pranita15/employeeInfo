@@ -192,7 +192,10 @@ public class EmpMasterDAOImpl implements EmpMasterDAO {
 			
 		}catch(Exception e){ 
 			e.printStackTrace();
+			System.out.println("hii");
 		}
 		return s;
 	}
+	
+	
 }
